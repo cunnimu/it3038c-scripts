@@ -11,7 +11,7 @@ guess = ''
 
 print('I am thinking of a number.')
 while guess != num:
-    #print('Guess: ')
+
     guess = int(input('Guess: '))
 
     if guess == num:
