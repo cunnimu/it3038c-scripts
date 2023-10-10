@@ -22,11 +22,11 @@ do
 
 done
 ```
-Script can be changed for other formats or specific files by editing:
+To find specific files:
 ```
 for file in [SpecificFileName]*.csv
 ```
-And then change the output:
+Or change the output format:
 ```
 newname = "${filename}$((++i))".csv
 ```
