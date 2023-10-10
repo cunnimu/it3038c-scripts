@@ -1,5 +1,5 @@
 # Project 1
-This is a simple bash script to rename a group of related files with the same name plus a sequential number. I sometimes have files that are sequential but have the same name. Renaming them individually takes time and that could be automated instead.
+This is a simple script to rename a group of related files with the same name plus a sequential number. I sometimes have files that are sequential but have the same name. Renaming them individually takes time and that could be automated instead. It is a simple demonstration and could be edited or expanded on for more interesting file renaming.
 ## Use
 ```
 ./rename.sh [NewFileName]
