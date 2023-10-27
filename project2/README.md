@@ -1,5 +1,6 @@
 For this project, I chose the option to display a log file in a web browser. This script will create a web server, read the `var/log/secure` log and return the contents to the web page.
 
+![screencap of secure log display](https://github.com/cunnimu/it3038c-scripts/blob/main/project2/secure%20log%20screencap.png?raw=true)
 
 ## How to Use
 Copy script to your Centos machine. Open a terminal and use the following command:
