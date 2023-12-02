@@ -1,0 +1,13 @@
+{% extends "layout.html" %} 
+
+{% block content %} 
+<p><em>Search term:</em> 
+   <form action="/results" method="POST">
+      <div class="mb-3">
+         <input type="text" class="form-control" id="query" name="query" placeholder="for example: space">
+      </div>
+      <button type="submit" class="btn btn-dark" value="Submit">
+        Submit </button> 
+      </form> 
+</p> 
+{% endblock %} 
