@@ -1,6 +1,8 @@
 # Project 3
 ## Art Finder
 
+![default view](https://github.com/cunnimu/it3038c-scripts/blob/main/project3/screencaps/artfinder-default-view.png?raw=true)
+
 This is a simple flask app that searches for artwork using the [Art Institute of Chicago's API](https://api.artic.edu/docs/#introduction)
 ## Background
 
@@ -29,6 +31,7 @@ python3 main.py
 
 ## Project Structure
 
+![project structure](https://github.com/cunnimu/it3038c-scripts/blob/main/project3/screencaps/project3-structure.png?raw=true)
 
 This is the structure in flask. The `main.py` file starts the program. The `routes.py` file contains the different routes  The templates folder holds the code for the different pages. 
 
@@ -48,6 +51,8 @@ def results():
 ```
 The route specifies the `results` page and the `POST` method. The `query` is the search term from the form. Next, this is used in the API call.
 ### Search Results
+
+![search results for "space"](https://github.com/cunnimu/it3038c-scripts/blob/main/project3/screencaps/space-search-results.png?raw=true)
 
 You can search for any term you like to see this in action. Try: space, cats, robots, ohio...you will get artwork from various mediums. Because it searches the metadata, some will be more relevant to your interests than others. But that is okay: art is subjective and you can appreciate it regardless.
 
